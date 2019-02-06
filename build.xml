@@ -33,7 +33,7 @@
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
-            <src path="mkrajews-307-1T.git/trunk/src"/>
+            <src path="src"/>
             <classpath refid="TermTravis.classpath"/>
         </javac>
     </target>
